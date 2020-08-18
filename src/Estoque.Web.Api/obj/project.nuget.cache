@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ipVxgY4JUUZiD0XJhG+4y0YnCxyIjWDdnr6Y/0vE1WsV+ZslxM+JfpNdPOQ+ctQ4Qd1SAvo+K4gHCNOPlUKMwg==",
+  "dgSpecHash": "Ydz8d/Q6hvSv1sxZZV8VIxTgcxhy6KZK0LKRYw42mq/ah/BsJwLVtfec2jRm/kbSeGX4rNNZMD5za3ADbpjxWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renan Barbosa\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\Renan Barbosa\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
