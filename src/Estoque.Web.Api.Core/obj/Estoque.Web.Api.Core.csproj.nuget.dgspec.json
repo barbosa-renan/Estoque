@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {}
+    "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
+    "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
         "projectName": "Estoque.Web.Api.Core",
-        "projectPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
+        "projectPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
         "packagesPath": "C:\\Users\\Renan Barbosa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\obj\\",
+        "outputPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

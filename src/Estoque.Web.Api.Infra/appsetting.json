@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "DefaultConnection": "Data Source=ACER-RENAN;Initial Catalog=Estoque;Integrated Security=True"
+    }
+}

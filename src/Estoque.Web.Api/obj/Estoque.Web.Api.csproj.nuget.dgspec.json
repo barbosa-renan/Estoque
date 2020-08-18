@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj": {}
+    "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
+    "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
         "projectName": "Estoque.Web.Api.Core",
-        "projectPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
+        "projectPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj",
         "packagesPath": "C:\\Users\\Renan Barbosa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\obj\\",
+        "outputPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,82 +64,14 @@
         }
       }
     },
-    "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj": {
+    "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj",
         "projectName": "Estoque.Web.Api.Infra",
-        "projectPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj",
+        "projectPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj",
         "packagesPath": "C:\\Users\\Renan Barbosa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Renan Barbosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {
-              "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
-                "projectPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.35, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj",
-        "projectName": "Estoque.Web.Api",
-        "projectPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj",
-        "packagesPath": "C:\\Users\\Renan Barbosa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\obj\\",
+        "outputPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -160,11 +92,86 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
-                "projectPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj"
+              "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
+                "projectPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj",
+        "projectName": "Estoque.Web.Api",
+        "projectPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\Estoque.Web.Api.csproj",
+        "packagesPath": "C:\\Users\\Renan Barbosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Renan Barbosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj": {
+                "projectPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Core\\Estoque.Web.Api.Core.csproj"
               },
-              "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj": {
-                "projectPath": "c:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj"
+              "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj": {
+                "projectPath": "C:\\Users\\Renan Barbosa\\source\\repos\\Estoque\\src\\Estoque.Web.Api.Infra\\Estoque.Web.Api.Infra.csproj"
               }
             }
           }
