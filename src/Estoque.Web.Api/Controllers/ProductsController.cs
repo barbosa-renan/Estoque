@@ -23,17 +23,19 @@ namespace Estoque.Web.Api
             var product = await _productRepository.Get(id);
             return Ok(product);
         }
+
         [HttpPost]
-        public async Task<ActionResult> Add(Product entity)
+        public async Task<ActionResult> Insert(Product entity)
         {
             await _productRepository.Insert(entity);
             return Ok(entity);
         }
+        
         [HttpPut("{id}")]
-        public async Task<ActionResult<Product>> Update(Product entity)
+        public async Task<ActionResult<Product>> Update(int id, Product data)
         {
-            await _productRepository.Update(entity);
-            return Ok(entity);
+            await _productRepository.Update(data);            
+            return Ok(data);
         }
 
         [HttpDelete("{id}")]

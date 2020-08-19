@@ -7,9 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Estoque.Web.Api/Estoque.Web.Api.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "${workspaceFolder}"
             ],
             "problemMatcher": "$msCompile"
         },

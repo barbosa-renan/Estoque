@@ -47,7 +47,7 @@ namespace Estoque.Web.Api.Infra
             await WithConnection(async conn =>
             {
                 var parameters = new DynamicParameters();
-                parameters.Add("@Id", entity.Name);
+                parameters.Add("@Id", entity.Id);
                 parameters.Add("@Name", entity.Name);
                 parameters.Add("@UnitPrice", entity.UnitPrice);
                 parameters.Add("@Amount", entity.Amount);
