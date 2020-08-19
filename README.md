@@ -25,4 +25,4 @@
     cd .\Estoque\src\Estoque.Web.UI\ClientApp
 
  - Execute o comando `npm start`
- - A aplicação React será executada no navegador em http://localhost:8081/
+ - A aplicação React será executada no navegador em `http://localhost:8081/`
