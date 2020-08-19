@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NumberFormat from 'react-number-format';
 import Service from "../../../src/services/product.service";
 
 export class Create extends Component {
@@ -25,14 +26,18 @@ export class Create extends Component {
     }
 
     onChangeUnitPrice(e) {
+        const unitPrice = e.target.value.replace("R$", "");
+
         this.setState({
-            unitPrice: e.target.value
+            unitPrice: +unitPrice
         });
     }
 
     onChangeAmount(e) {
+        const amount = e.target.value
+
         this.setState({
-            amount: e.target.value
+            amount: +amount
         });
     }
 
@@ -96,15 +101,16 @@ export class Create extends Component {
 
                             <div className="form-group">
                                 <label htmlFor="unitPrice">Preço unitário</label>
-                                <input
-                                    type="number"
+                                <NumberFormat 
+                                    type="text"
+                                    thousandSeparator={false} 
+                                    allowNegative={false}
+                                    decimalSeparator={"."}
+                                    prefix={'R$'}
                                     className="form-control"
                                     id="unitPrice"
-                                    required
                                     value={this.state.unitPrice}
-                                    onChange={this.onChangeUnitPrice}
-                                    name="unitPrice"
-                                />
+                                    onChange={this.onChangeUnitPrice}/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="amount">Quantidade</label>

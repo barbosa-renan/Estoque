@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NumberFormat from 'react-number-format';
 import { Link } from "react-router-dom";
 import Service from "../../../src/services/product.service";
 
@@ -41,8 +42,9 @@ export class Edit extends Component {
     }
 
     onChangeUnitPrice(e) {
-        const unitPrice = e.target.value;
 
+        const unitPrice = e.target.value.replace("R$", "");
+        
         this.setState(prevState => ({
             currentProduct: {
                 ...prevState.currentProduct,
@@ -112,8 +114,12 @@ export class Edit extends Component {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="unitPrice">Preço unitário</label>
-                                <input
-                                    type="number"
+                                <NumberFormat 
+                                    type="text"
+                                    thousandSeparator={false} 
+                                    allowNegative={false}
+                                    decimalSeparator={"."}
+                                    prefix={'R$'}
                                     className="form-control"
                                     id="unitPrice"
                                     value={currentProduct.unitPrice}
