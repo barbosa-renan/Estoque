@@ -1,6 +1,9 @@
 # Estoque
+Projeto testando uma implementação em React JS e ASPNET Core, separando totalemente o front-end do back-end.
+
 **Tecnologias utilizadas**
  - .NET Core 3.1 
+ - Web Api
  - React JS 
  - ASP.NET Core Web Api 
  - Dapper
